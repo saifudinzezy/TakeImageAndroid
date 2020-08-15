@@ -1,0 +1,3 @@
+include ':TakeImage'
+include ':app'
+rootProject.name = "Take Image"

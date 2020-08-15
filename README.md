@@ -8,14 +8,16 @@ ubah tag dengan versi saat ini <b> (1.0) </b>
 allprojects {
 		repositories {
 			...
-			maven { url 'https://jitpack.io' }
+			maven { 
+				url 'https://jitpack.io' 
+			}
 		}
-	} 
+} 
 ```
   
 ## 2.  Add the dependency
 ```javascript
 dependencies {
 	        implementation 'com.github.saifudinzezy:TakeImageAndroid:Tag'
-	}
+}
 ```
